@@ -1,0 +1,77 @@
+body{
+    background-image: url('images/coder.jpg');
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#quiz{
+    background-color: black;
+    opacity: 0.7;
+    margin: 4% 160px;
+    width: 600px;
+    padding: 20px;
+    font-size: 18px;
+}
+h2{
+    font-family: 'Mountains of Christmas', cursive;
+    color: white;
+}
+h1{
+    font-family: 'Barriecito', cursive;
+    border-bottom: 1px solid gray;
+    color: white;
+}
+label{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+
+}
+button{
+    margin: 20px;
+    width: 200px;
+    height: 40px;
+    color: rgb(31, 29, 29);
+    font-family: 'Dancing Script', cursive;
+    background-color: lightgreen;
+    border: none;
+    font-size: 20px;
+}
+button:hover{
+    background-color: white;
+    border: 1px solid lightgreen;
+}
+p{
+    font-size: 20px;
+    color: red;
+    font-family: 'Indie Flower', cursive;
+    margin: 0px 60px;
+}
+/* radio button */
+
+input[type='radio'] {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    outline: none;
+    border: 3px solid gray;
+}
+
+input[type='radio']:before {
+    content: '';
+    display: block;
+    width: 62%;
+    height: 60%;
+    margin: 20% auto;
+    border-radius: 50%;
+}
+
+input[type="radio"]:checked:before {
+    background: gray;
+    
+}
+
+input[type="radio"]:checked {
+  border-color:green;
+}
